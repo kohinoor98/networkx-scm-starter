@@ -71,7 +71,7 @@ It’s intentionally **modular** so you can **swap in** different solvers, attac
 
 **Install dependencies** via pip (example):
 ```bash
-pip install networkx matplotlib pandas pulp reportlab
+pip install networkx matplotlib numpy scipy pandas pulp reportlab uuid
 ```
 
 If you’re on **Apple Silicon** (M1/2/3...) and get errors with CBC, install a native CBC solver:
